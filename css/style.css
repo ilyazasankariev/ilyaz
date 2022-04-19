@@ -1,0 +1,52 @@
+header{
+  height: 1000px;
+}
+
+
+
+.aa img{
+    animation-name: text;
+  animation-iteration-count: infinite;
+animation-duration: 0.1s;
+margin-left: 10rem;
+margin-top: 10rem;
+}
+@keyframes text{
+form{
+  transform: rotate(0deg);
+}
+to{
+  transform: rotate(180deg);
+}
+
+}
+.car img{
+  width: 1200px;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+.col img{
+  animation-name: text;
+  animation-iteration-count: infinite;
+animation-duration: 0.1s;
+ position: absolute;
+ left: 25rem;
+ top: 45rem;
+}
+.co{
+  animation-name: text;
+  animation-iteration-count: infinite;
+animation-duration: 0.1s;
+  position: absolute;
+ left: 73rem;
+ top: 45rem;
+}
+@keyframes{
+  form{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(180deg);
+  }
+  
+  }
